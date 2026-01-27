@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BlogDataLibrary/BlogDataLibrary.csproj" />
+  <Project Path="GatpoBlogDB/GatpoBlogDB.sqlproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
