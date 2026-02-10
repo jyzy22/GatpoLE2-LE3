@@ -1,6 +1,7 @@
 <Solution>
-  <Project Path="BlogDataLibrary/BlogDataLibrary.csproj" />
-  <Project Path="GatpoBlogDB/GatpoBlogDB.sqlproj">
+  <Project Path="BlogDataLibrary/BlogDataLibrary.csproj" Id="7c177ecf-af83-4590-9e6d-a67905cc0381" />
+  <Project Path="BlogTestUI/BlogTestUI.csproj" Id="6b071301-f212-4fa4-b5dc-3c4f16d44eff" />
+  <Project Path="GatpoBlogDB/GatpoBlogDB.sqlproj" Id="c2e74b4d-fe83-4199-9fe1-84726b3b31bd">
     <Build />
     <Deploy />
   </Project>
