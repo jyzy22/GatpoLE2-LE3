@@ -40,8 +40,8 @@ namespace BlogDataLibrary.Data
 
         public void AddPost(PostModel post)
         {
-            // Validate input
-            if (string.IsNullOrEmpty(post.Content))
+            
+            if (string.IsNullOrEmpty(post.Body))
             {
                 throw new ArgumentException("Post content cannot be empty");
             }
@@ -52,8 +52,8 @@ namespace BlogDataLibrary.Data
                 {
                     userId = post.UserId,
                     title = post.Title,
-                    content = post.Content,
-                    dateCreated = post.CreatedAt  // Make sure this is included
+                    content = post.Body,
+                    dateCreated = post.DateCreated  
                 },
                 connectionStringName,
                 true);
